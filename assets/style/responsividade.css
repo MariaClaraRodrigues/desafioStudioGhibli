@@ -1,4 +1,39 @@
+@media (min-width: 951px) and (max-width: 1200px) {
+    .container {
+        margin: 0 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .content {
+        width: 400px;
+        height: 304px;
+        margin-bottom: 45px;
+    }
+    .imagemFantasmas {
+        width: 300px;
+        height: 250px;
+    }
+
+    .btns {
+        width: 400px;
+        height: 45px;
+        margin-bottom: 50px;
+    }
+
+    .btn {
+        display: flex;
+        margin-top: 30px;
+        width: 225px;
+        height: 45px;
+    }
+}
+
 @media (min-width: 801px) and (max-width: 950px) {
+    .cabecalho {
+        margin: 14px 25px 26px 25px;
+    }
     .container {
         margin: 0 25px;
         display: flex;
