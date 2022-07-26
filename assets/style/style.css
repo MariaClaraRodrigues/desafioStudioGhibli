@@ -4,12 +4,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    color: #f9f9f9;
 }
 
 body {
     background: linear-gradient(90deg, #628E75, #1A4855);
     font-family: 'Poppins', sans-serif;
-    color: #f9f9f9;
 }
 
 .cabecalho {
@@ -23,6 +24,9 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: row;
+}
+.icon {
+    cursor: pointer;
 }
 
 div img {
